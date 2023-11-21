@@ -19,3 +19,13 @@
    - Создать новую директорию и переместить туда файл "Human Friends".
 
 ![image](https://github.com/SergGudini/Itog_specialisation/assets/119971642/bf0c58d4-e423-4af3-b1a8-1dc77f20be3e)
+
+3. Работа с MySQL в Linux. “Установить MySQL на вашу вычислительную машину ”
+   - Подключить дополнительный репозиторий MySQL и установить один из пакетов из этого репозитория.
+
+![image](https://github.com/SergGudini/Itog_specialisation/assets/119971642/504bd8cd-9a43-4205-8a1d-400440a93594)
+
+![image](https://github.com/SergGudini/Itog_specialisation/assets/119971642/f702f235-ac8e-468c-b344-783dba337317)
+
+
+
