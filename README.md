@@ -36,10 +36,9 @@
 ![image](https://github.com/SergGudini/Itog_specialisation/assets/119971642/772e5928-80bf-436f-9a52-05e70ec989a0)
 ![image](https://github.com/SergGudini/Itog_specialisation/assets/119971642/1ff85ec0-3870-4fba-b9ec-000ff4689182)
 
-5. История команд в терминале Ubuntu
+5. [История команд](https://github.com/SergGudini/Itog_specialisation/blob/main/DragunSU_21.11.2023_4335) в терминале Ubuntu
    - Сохранить и выложить историю ваших терминальных команд в Ubuntu.
 В формате: Файла с ФИО, датой сдачи, номером группы(или потока)
-
 
 
 
