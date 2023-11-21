@@ -15,3 +15,7 @@
 
 ![image](https://github.com/SergGudini/Itog_specialisation/assets/119971642/7cfeeec5-df84-470f-a9da-c3f635a45576)
 
+2. Работа с директориями в Linux
+   - Создать новую директорию и переместить туда файл "Human Friends".
+
+![image](https://github.com/SergGudini/Itog_specialisation/assets/119971642/bf0c58d4-e423-4af3-b1a8-1dc77f20be3e)
