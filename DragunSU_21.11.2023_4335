@@ -1,0 +1,523 @@
+    1  clear
+    2  apt install openssh-server -y
+    3  whoami
+    4  cd ..
+    5  vi students/students_list.txt 
+    6  nano hw_4.sh
+    7  ls -l
+    8  chmod u+x hw_4.sh 
+    9  ./hw_4.sh 
+   10  ./hw_4.sh 1
+   11  nano hw_4.sh 
+   12  ./hw_4.sh 1
+   13  ./hw_4.sh 2
+   14  nano hw_4.sh 
+   15  ./hw_4.sh 2
+   16  nano hw_4.sh 
+   17  ./hw_4.sh 2
+   18  nano hw_4.sh 
+   19  ./hw_4.sh 2
+   20  ./hw_4.sh 1
+   21  ./hw_4.sh 2
+   22  nano hw_4.sh 
+   23  ./hw_4.sh
+   24  nano hw_4.sh 
+   25  ./hw_4.sh 2
+   26  nano hw_4.sh 
+   27  ./hw_4.sh 2
+   28  nano hw_4.sh 
+   29  ./hw_4.sh 2
+   30  nano hw_4.sh 
+   31  ./hw_4.sh 2
+   32  nano hw_4.sh 
+   33  ./hw_4.sh 2
+   34  nano hw_4.sh 
+   35  ./hw_4.sh 2
+   36  nano hw_4.sh 
+   37  ./hw_4.sh 2
+   38  nano hw_4.sh 
+   39  ./hw_4.sh 2
+   40  nano hw_4.sh 
+   41  ./hw_4.sh 2
+   42  nano hw_4.sh 
+   43  ./hw_4.sh 2
+   44  nano hw_4.sh 
+   45  ./hw_4.sh 2
+   46  ./hw_4.sh 1
+   47  nano hw_4.sh 
+   48  ./hw_4.sh 2
+   49  nano hw_4.sh 
+   50  ./hw_4.sh 2
+   51  nano hw_4.sh 
+   52  ./hw_4.sh 2
+   53  nano hw_4.sh 
+   54  nano test.sh
+   55  chmod u+x test.sh 
+   56  ./test.sh 2
+   57  nano test.sh
+   58  ./test.sh
+   59  nano test.sh
+   60  ./test.sh
+   61  nano test.sh
+   62  ./test.sh
+   63  nano test.sh
+   64  ./test.sh
+   65  nano test.sh
+   66  ./test.sh
+   67  nano test.sh
+   68  ./test.sh
+   69  nano test.sh
+   70  ./test.sh
+   71  nano test.sh
+   72  ./test.sh
+   73  nano test.sh
+   74  ./test.sh
+   75  nano test.sh
+   76  ./test.sh
+   77  nano test.sh
+   78  ./test.sh
+   79  nano test.sh
+   80  ./test.sh
+   81  nano hw_4.sh 
+   82  ./hw_4.sh 2
+   83  nano hw_4.sh 
+   84  ./hw_4.sh 2
+   85  nano hw_4.sh
+   86  ./hw_4.sh 2
+   87  nano hw_4.sh
+   88  ./hw_4.sh 2
+   89  nano hw_4.sh
+   90  ls -l | cut -f 1 -d ' '
+   91  ls -l
+   92  ls
+   93  rm '=' 
+   94  l
+   95  ls
+   96  ls -l
+   97  ll
+   98  ll | cut -f 1 -d ' '
+   99  ll | cut -f 1 -d ' ' | sort -k 5
+  100  ll | cut -f 1 -d ' ' | sort -k 9
+  101  ll
+  102  ll | sort -k 9
+  103  ll | sort -k 9 |cut -f 1 -d ' '
+  104  ll | sort -k 9 | cut -f 1 -d ' ' | uniq -ic
+  105  ll | sort -k 9 | cut -f 1 -d ' ' | uniq -c
+  106  ll | sort -k 9 | cut -f 1 -d ' ' | uniq
+  107  nano hw_4.sh 
+  108  ./hw_4.sh 3
+  109  ls -l
+  110  nano hw_4.sh 
+  111  ./hw_4.sh 3
+  112  ls -l
+  113  ls -l | sort -k 9 | cut -f 1 -d ' ' | uniq -c
+  114  nano hw_4.sh 
+  115  ./hw_4.sh 3
+  116  nano hw_4.sh 
+  117  ./hw_4.sh 3
+  118  ll | sort -k 9 | cut -f 1 -d ' ' | uniq
+  119  nano hw_4.sh 
+  120  ls
+  121  mkdir lalka1
+  122  mkdir lalka2
+  123  mkdir lalka3
+  124  touch 123.bak lalka*
+  125  touch 123.tmp lalka2
+  126  touch 123.tmp lalka1
+  127  touch 123.backup lalka3
+  128  ls lalka2
+  129  cd lalka2
+  130  ls
+  131  cd ..
+  132  ls
+  133  mv 123.* lalka1
+  134  ls
+  135  ls lalka1
+  136  touch lalka2/343.tmp
+  137  touch lalka2/343.bak
+  138  touch lalka3/343.backup
+  139  ls lalka3
+  140  find --help
+  141  find /home/user/123 -type d 1 > touch result.txt 2 > echo "ERROR"
+  142  find /home/user/123 -type f 1 > touch result.txt 2 > echo "ERROR"
+  143  find /home/user/123 -type f 1> touch result.txt 2 > echo "ERROR"
+  144  find /home/user/123 -type f 1> touch result.txt 2> echo "ERROR"
+  145  ls
+  146  find /home/user/123 -type d 1> touch result.txt 2> echo "ERROR"
+  147  ls
+  148  nano hw_4.sh 
+  149  if (dir.exists(/home/user/123)) {  
+  150  } else {  
+  151  }
+  152  nano hw_4.sh 
+  153  vi /etc/shadow
+  154  useradd -m test
+  155  passwd test
+  156  ls /home/
+  157  cat /etc/shadow
+  158  userdel -r test
+  159  ls /home/
+  160  cat /etc/shadow
+  161  groupadd testgroup
+  162  useradd test1
+  163  passwd test1
+  164  groups test1
+  165  usermod -aG testgroup test1
+  166  groups test1
+  167  deluser test1 testgroup
+  168  groups test1
+  169  usermod -aG sudo test1
+  170  groups test1
+  171  su test1
+  172  ls
+  173  nano hw_4.sh.save 
+  174  rm hw_4.sh
+  175  mv hw_4.sh.save hw_4.sh
+  176  ls
+  177  ./hw_4.sh 4
+  178  apt update
+  179  ./hw_4.sh 4
+  180  apt update
+  181  apt list --upgradable
+  182  apt update
+  183  vi /etc/apt/sources.list
+  184  nano /etc/apt/sources.list
+  185  apt update
+  186  apt --help
+  187  apt-add-repository --help
+  188  apt-add-repository http://nginx.org/packages/ubuntu
+  189  apt update
+  190  curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor     | sudo tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null
+  191  curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor | sudo tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null
+  192  nano /etc/apt/sources.list
+  193  apt-add-repository http://nginx.org/packages/ubuntu --allow-unauthenticated
+  194  apt-add-repository -U  http://nginx.org/packages/ubuntu
+  195  echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] | http://nginx.org/packages/mainline/ubuntu `lsb_release -cs` nginx"
+  196  apt-add-repository http://nginx.org/packages/ubuntu
+  197  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ABF5BD827BD9BF62
+  198  apt update
+  199  apt install nginx
+  200  echo -e "Package: *\nPin: origin nginx.org\nPin: release o=nginx\nPin-Priority: 900\n" | sudo tee /etc/apt/preferences.d/99nginx
+  201  apt install nginx
+  202  apt purge nginx
+  203  apt update
+  204  nano /etc/apt/sources.list
+  205  ls /etc/apt/sources.list.d/
+  206  rm /etc/apt/sources.list.d/archive_uri-http_nginx_org_packages_ubuntu-jammy.list 
+  207  apt update
+  208  nano /etc/apt/sources.list
+  209  apt update
+  210  nano /etc/apt/sources.list
+  211  apt-add-repository https://mirror.datacenter.by/
+  212  cd /etc/apt
+  213  cd sources.list.d/
+  214  ls
+  215  nano archive_uri-https_mirror_datacenter_by_-jammy.list 
+  216  cd ..
+  217  nano sources.list
+  218  nano sources.list.d/archive_uri-https_mirror_datacenter_by_-jammy.list 
+  219  apt update
+  220  rm sources.list.d/archive_uri-https_mirror_datacenter_by_-jammy.list 
+  221  apt-add-repository https://mirror.datacenter.by/releases/
+  222  rm sources.list.d/archive_uri-https_mirror_datacenter_by_-jammy.list 
+  223  rm sources.list.d/archive_uri-https_mirror_datacenter_by_releases_-jammy.list 
+  224  apt-add-repository "deb  https://mirror.datacenter.by/releases wily main"
+  225  apt-add-repository --remove "deb  https://mirror.datacenter.by/releases wily main"
+  226  apt-add-repository "deb  https://mirror.datacenter.by/ubuntu/ wily main"
+  227  apt-add-repository --remove "deb  https://mirror.datacenter.by/releases wily main"
+  228  apt-add-repository "deb  https://nginx.org/packages/ubuntu/ wily main"
+  229  apt-add-repository --remove "deb  https://nginx.org/packages/ubuntu/ wily main"
+  230  ls sources.list.d/
+  231  rm sources.list.d/*
+  232  vi sources.list
+  233  nano sources.list
+  234  lsb_release -a
+  235  nano sources.list
+  236  apt update
+  237  nano sources.list
+  238  apt update
+  239  nano sources.list
+  240  apt update
+  241  nano sources.list
+  242  apt update
+  243  nano sources.list
+  244  apt update
+  245  apt-add-repository "deb https://nginx.org/packages/ubuntu/ jammy nginx"
+  246  apt update
+  247  yum install nginx
+  248  apt install nginx
+  249  dpkg --help
+  250  dpkg 
+  251  dpkg --help
+  252  dpkg -P nginx
+  253  nano sources.list
+  254  apt update
+  255  snap
+  256  sanp opera
+  257  apt install snap
+  258  snap opera
+  259  snap find opera
+  260  snap install opera
+  261  dpkg -P opera
+  262  snap purge opera
+  263  snap remove opera
+  264  systemctl status crontab
+  265  systemctl status cron
+  266  ls
+  267  rm -R lalka*
+  268  ls
+  269  rm touch 
+  270  rm test.sh 
+  271  rm echo 
+  272  ls
+  273  touch test.txt
+  274  ls
+  275  crontab -e
+  276  crontab -l
+  277  ls
+  278  iptables --list-number
+  279  iptables --list
+  280  iptables -A OUTPUT -p tcp --dport 22 -j ACCEPT
+  281  iptables --list
+  282  iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT
+  283  iptables --list
+  284  iptables -P OUTPUT -j DROP
+  285  iptables -P OUTPUT DROP
+  286  iptables --list
+  287  iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT
+  288  iptables -A OUTPUT -s 192.168.100.6 -j ACCEPT
+  289  iptables -A INPUT -s 192.168.100.6 -j ACCEPT
+  290  iptables -P INPUT ACCEPT
+  291  iptables --lisst
+  292  iptables --list
+  293  iptables -F INPUT
+  294  iptables -F OUTPUT
+  295  iptables --list
+  296  iptables -A OUTPUT -s 192.168.100.6 -j ACCEPT
+  297  iptables -A INPUT -s 192.168.100.6 -j ACCEPT
+  298  iptables -F OUTPUT DROP
+  299  iptables -P OUTPUT DROP
+  300  iptables -list
+  301  iptables --list
+  302  iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+  303  iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+  304  iptables -P INPUT DROP
+  305  iptables -F INPUT
+  306  iptables --list
+  307  iptables -A OUTPUT -p tcp --dport 22 -j ACCEPT
+  308  iptables -A OUTPUT -j DROP
+  309  iptables --list
+  310  iptables -P OUTPUT ACCEPT
+  311  iptables -F OUTPUT
+  312  iptables --list
+  313  iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+  314  iptables --list
+  315  iptables -A OUTPUT -p tcp --dport 22 -j ACCEPT
+  316  iptables --list
+  317  iptables -P OUTPUT ACCEPT
+  318  iptables --list
+  319  iptables -F
+  320  iptables --list
+  321  iptables -P OUTPUT DOR
+  322  iptables -P OUTPUT DROP
+  323  iptables -A OUTPUT -p tcp --dport 22 -j ACCEPT
+  324  iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT
+  325  iptables --list
+  326  ls
+  327  crontab -e
+  328  crontab -l
+  329  ll
+  330  iptables -F
+  331  iptables -P INPUT DROP
+  332  iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+  333  iptables -F
+  334  iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+  335  iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+  336  iptables --list
+  337  iptables -P OUTPUT ACCES
+  338  iptables -P OUTPUT ACCEPT
+  339  iptables --list
+  340  iptables -F
+  341  iptables -P OUTPUT DROP
+  342  iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT
+  343  iptables -A OUTPUT -p tcp --dport 22 -j ACCEPT
+  344  iptables -P INPUT ACCEPT
+  345  iptables --list
+  346  iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to-destination 192.168.100.7:8080
+  347  iptables -A FORWARD -p tcp -d 192.168.100.7 --dport 8080 -j ACCEPT
+  348  iptables --list
+  349  iptables -A INPUT -s 3.4.5.6 -j DROP
+  350  iptables --list
+  351  iptables -F
+  352  iptables -P OUTPUT ACCEPT
+  353  iptables -P INPUT ACCEPT
+  354  mc
+  355  0;41;30M0;41;30m0;46;30M0;46;30m0;56;32M0;56;32m0;71;32M0;71;32m0;71;32M0;71;32m0;71;32M0;71;32m0;71;32M0;71;32m
+  356  mc
+  357  docker
+  358  apt install docker -y
+  359  apt install docker-compose
+  360  apt install docker-compose -y
+  361  docker ps
+  362  docker ps -a
+  363  docker images
+  364  docker rmi nginx
+  365  docker images
+  366  docker run hellow-world
+  367  sudo docker run hellow-world
+  368  docker rmi hellow-world
+  369  docker images
+  370  docker run hello-world
+  371  systemctl stop nginx
+  372  systemctl stop apache
+  373  systemctl stop apache2
+  374  docker run -d -p 80:80 docker/getting-started
+  375  docker ps
+  376  docker stop 23f542484344
+  377  docker ps
+  378  docker pull nginx
+  379  docker images
+  380  docker run -d -p 8123:80 nginx
+  381  docker run -d ubuntu
+  382  docker ps
+  383  docker stop 2fa52acc900d
+  384  docker ps
+  385  docker images
+  386  ls
+  387  cd /
+  388  ls
+  389  nano DockerFile
+  390  ls
+  391  nano Dockerfile
+  392  docker build -t 8_seminar
+  393  docker build -t seminar_phpfpm
+  394  ls
+  395  docker images
+  396  nano Dockerfile
+  397  docker build -t seminar_phpfpm
+  398  nano Dockerfile
+  399  docker build -t seminar_phpfpm
+  400  docker build -t seminar_phpfpm .
+  401  docker build -t seminar_phpfpm ./
+  402  nano Dockerfile
+  403  docker build -t seminar_phpfpm .
+  404  ls
+  405  mv Dockerfile /home/user/
+  406  cd /home/user/
+  407  ls
+  408  docker build -t seminar_phpfpm .
+  409  nano Dockerfile
+  410  docker build -t seminar_phpfpm .
+  411  docker images
+  412  nano Dockerfile
+  413  docker build -t seminar_phpfpm .
+  414  nano Dockerfile
+  415  apt install php-fpm
+  416  docker build -t seminar_phpfpm .
+  417  docker run -d ubuntu
+  418  docker ps
+  419  docker ps -a
+  420  docker images
+  421  docker run -d ubuntu
+  422  docker ps
+  423  docker ps -a
+  424  history
+  425  docker images
+  426  ip link
+  427  virsh -c qemu:///system list
+  428  virt-manager
+  429  xauth add $(xauth -f ~user/.Xauthority list | tail -1)
+  430  virt-manager
+  431  apt get virtualbox
+  432  apt-get virtualbox
+  433  apt install virtualbox
+  434  virtualbox
+  435  . /etc/os-release
+  436  ./etc/os-release
+  437  cat /etc/os-release
+  438  apt install -t jammy-backports cockpit
+  439  systemctl status cockpit
+  440  systemctl start cockpit
+  441  systemctl status cockpit
+  442  apt install cocpit-machines
+  443  apt install cockpit-machines
+  444  cd /
+  445  chmod 0777 -R /home/
+  446  usermod -aG libvirt libvirtdbus
+  447  virsh --connect qemu:///system start xp
+  448  virsh --connect qemu:///system start
+  449  virsh --connect
+  450  reboot
+  451  virtualbox
+  452  sudo virtualbox
+  453  xclock
+  454  xauth add $(xauth -f ~user/.Xauthority list | tail -1)
+  455  virtualbox
+  456  chmod 0777 -R /home/
+  457  virtualbox
+  458  ls
+  459  rm -R -I GB/
+  460  rm hw_4.sh 
+  461  rm test.txt*
+  462  mkdir itog_specialisation
+  463  cd itog_specialisation/
+  464  cat Pets
+  465  ls
+  466  cat > Pets
+  467  cat > Pack animals
+  468  cat > Pack_animals
+  469  cat Pets Pack_animals > animals
+  470  cat animals 
+  471  rename
+  472  mv animals HumanAnimals
+  473  ls
+  474  rm Pack
+  475  ls
+  476  mkdir Animals
+  477  mv HumanAnimals Animals/
+  478  ls Animals/
+  479  ls
+  480  mysql
+  481  apt-get --help
+  482  apt-get remove myqsl
+  483  mysql
+  484  apt-get reinstall myqsl
+  485  mysql
+  486  ls
+  487  wget -c https://dev.mysql.com/get/mysql-apt-config_0.8.15-1_all.deb
+  488  ls
+  489  dpkg -i mysql-apt-config_0.8.15-1_all.deb 
+  490  apt update
+  491  apt install -f mysql-client=5.7*
+  492  dpkg -i mysql-apt-config_0.8.15-1_all.deb 
+  493  apt install -f mysql-client=5.7*
+  494  apt install -f mysql-client=5.6*
+  495  apt update
+  496  dpkg -r mysql-apt-config_0.8.15-1_all.deb 
+  497  dpkg -i mysql-apt-config_0.8.15-1_all.deb 
+  498  mysql
+  499  ls
+  500  dpkg -r mysql
+  501  apt purge mysql-server mysql-common mysql-server-core-* mysql-client-core-*
+  502  mysql
+  503  apt install mysql-apt-config_0.8.15-1_all.deb 
+  504  dpkg -i mysql-apt-config_0.8.15-1_all.deb 
+  505  mysql
+  506  apt-get install mysql
+  507  systemctl status nginx
+  508  gpkg -r nginx
+  509  dpkg -r nginx
+  510  systemctl status nginx
+  511  systemctl status nginx*
+  512  dpkg -r nginx*
+  513  systemctl status nginx*
+  514  systemctl status nginx
+  515  systemctl start nginx
+  516  apt-get install nginx
+  517  systemctl start nginx
+  518  systemctl status nginx
+  519  cat > history | history
+  520  ls
+  521  vi history 
+  522  rm history 
+  523  history > history
