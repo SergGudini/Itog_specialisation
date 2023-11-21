@@ -27,5 +27,16 @@
 
 ![image](https://github.com/SergGudini/Itog_specialisation/assets/119971642/f702f235-ac8e-468c-b344-783dba337317)
 
+4. Управление deb-пакетами
+   - Установить и затем удалить deb-пакет, используя команду `dpkg`.
+
+![image](https://github.com/SergGudini/Itog_specialisation/assets/119971642/914cda29-e000-4692-8b18-b21ba0701193)
+![image](https://github.com/SergGudini/Itog_specialisation/assets/119971642/8c896055-f1e5-4a4d-b5b3-85c8d64bf165)
+
+![image](https://github.com/SergGudini/Itog_specialisation/assets/119971642/772e5928-80bf-436f-9a52-05e70ec989a0)
+![image](https://github.com/SergGudini/Itog_specialisation/assets/119971642/1ff85ec0-3870-4fba-b9ec-000ff4689182)
+
+
+
 
 
